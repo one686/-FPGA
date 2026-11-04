@@ -1,0 +1,12 @@
+# TD 打开工程时生成的锁文件、用户记录和日志
+src/td_project/.lock.f
+src/td_project/.recent_user_depot.ini
+src/td_project/log/
+*.logw
+# TD 编译的中间文件很大，只保留最终比特流（best_result/）
+src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/*
+!src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/
+# 官方例程留下的文件，工程没有引用
+src/user_source/hdl_source/python/
+# Python 缓存
+__pycache__/
